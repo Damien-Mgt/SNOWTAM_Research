@@ -11,7 +11,7 @@
 9-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:5:5-26:19
 12        android:allowBackup="true"
 12-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,24 +29,33 @@
 20        android:theme="@style/AppTheme" >
 20-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:11:9-40
 21        <activity
-21-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:12:9-20:20
-22            android:name="com.example.snowtam_research.MainActivity"
-22-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:12:19-47
+21-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:12:9-15:20
+22            android:name="com.example.snowtam_research.ResultsActivity"
+22-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:12:19-50
 23            android:configChanges="orientation"
 23-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:13:13-48
 24            android:screenOrientation="portrait" >
 24-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:14:13-49
-25            <intent-filter>
-25-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:16:17-69
-26-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:18:17-77
-28-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
+25        </activity>
+26        <activity
+26-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:16:9-25:20
+27            android:name="com.example.snowtam_research.MainActivity"
+27-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:17:13-41
+28            android:configChanges="orientation"
+28-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:18:13-48
+29            android:screenOrientation="portrait" >
+29-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:19:13-49
+30            <intent-filter>
+30-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:21:17-69
+31-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:21:25-66
 32
-33</manifest>
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:23:17-77
+33-->C:\Users\mauge\Documents\ENSIM\Cours\Semestre9\Android\SNOWTAM_Research\app\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

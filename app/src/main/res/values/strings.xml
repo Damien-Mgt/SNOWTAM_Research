@@ -8,4 +8,7 @@
 
     <string name="warning_msg">Saisie incorrecte...</string>
 
+    <string name="loading">Recherche des snowtams en cours ...</string>
+
+
 </resources>

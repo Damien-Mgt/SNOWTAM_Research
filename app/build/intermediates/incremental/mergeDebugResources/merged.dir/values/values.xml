@@ -380,6 +380,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">SnowtamResearch</string>
+    <string name="loading">Recherche des snowtams en cours ...</string>
     <string name="logo">SNOWTAM Research</string>
     <string name="msg_consigne">Entrer les codes OACI des aéroports :</string>
     <string name="msg_done">Code(s) OACI enregistré(s) !</string>
@@ -393,7 +394,7 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        
 
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">

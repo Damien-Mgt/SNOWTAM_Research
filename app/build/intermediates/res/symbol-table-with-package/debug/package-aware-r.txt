@@ -698,6 +698,10 @@ id checkbox
 id chronometer
 id clip_horizontal
 id clip_vertical
+id code1
+id code2
+id code3
+id code4
 id collapseActionView
 id content
 id contentPanel
@@ -842,6 +846,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_results
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -895,6 +900,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string loading
 string logo
 string msg_consigne
 string msg_done
